@@ -1,0 +1,41 @@
+TreeMap:
+
+It is an implemented class of NavigableMap interface, but it also inherits the properties of sorted map and Map interface.
+
+Syntax:-
+
+ Package java.util;
+class TreeMap implements NavigableMap, SortedMap, Map
+
+It was introduced in jdk version 1.2
+
+The underline data structure of the treeMap is "Red-Black Tree."
+
+Properties of Red-Black Tree.
+
+           1] Every node is either "RED" or "BACK."
+
+           2] The root node is always "BLACK."
+
+           3] Every leaf node(null node) is "BLACK."
+
+           4] If a node is red then, both of its children are "BLACK."
+
+           5] For each node, all paths from node to its descendant leaf nodes contain the same number of "BLACK" nodes.
+
+
+Properties of TreeMap:
+
+          1] Data stored in the treeMap is in the form of "key-value" pair.
+
+ **** 2]TreeMap follows "SORTING ORDER" with respect to 'keys.'
+
+         3]TreeMap doesn't follow 'Insertion order.'
+
+         4] It can store "Homogeneous" and "heterogeneous" elements.
+
+         5] It can't store null value's.
+
+         6] It is a non-synchronized data structure.
+
+

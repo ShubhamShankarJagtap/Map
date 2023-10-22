@@ -13,4 +13,4 @@ with predictable iteration order. It inherits HashMap class and implements the M
 
                  Java LinkedHashMap "MAINTAINS INSERTION ORDER."
 
-                 The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.
+                 The initial default capacity of Java HashMap class is 16 with a load factor of 0.75.A
